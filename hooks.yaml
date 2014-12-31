@@ -3,4 +3,4 @@
   description: This hook rejects large files.
   entry: reject-large-files
   language: python
-  files: ''
+  files: .*
