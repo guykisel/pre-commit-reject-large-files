@@ -11,7 +11,7 @@ import os
 def main(argv=None):
     parser = argparse.ArgumentParser()
     parser.add_argument('filenames', nargs='*', help='filenames to run')
-    parser.add_argument('-m', '--max_filesize', type=int,
+    parser.add_argument('-m', '--max-filesize', type=int,
                         help='maximum allowable filesize in bytes',
                         default=5242880)
     args = parser.parse_args(argv)
@@ -20,9 +20,6 @@ def main(argv=None):
 
     for filename in args.filenames:
         size = os.stat(filename).st_size
-        print(filename)
-        print(size)
-        print(args.max_filesize)
         if int(size) > int(args.max_filesize):
             print('{} is too large ({} > {})'.format(os.path.abspath(filename),
                                                      size, args.max_filesize))
