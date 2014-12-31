@@ -16,4 +16,4 @@ Add this to your ``.pre-commit-config.yaml`` file
 
 Available flags:
 
-* ``--max_filesize``: Maximum allowable filesize in bytes. Defaults to 5 MB (5242880 bytes).
+* ``--max-filesize``: Maximum allowable filesize in bytes. Defaults to 5 MB (5242880 bytes).
