@@ -10,7 +10,7 @@ large files.
 Add this to your ``.pre-commit-config.yaml`` file
 
     -   repo: git://github.com/guykisel/pre-commit-reject-large-files
-        sha: <latest git hash>
+        sha: da21f6dac1aa20aa53598b145c5c0013cdd40d65
         hooks:
         -   id: reject-large-files
 
