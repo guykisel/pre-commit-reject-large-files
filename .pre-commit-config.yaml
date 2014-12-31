@@ -20,3 +20,7 @@
     -   id: python-import-sorter
         args:
         - --silent-overwrite
+-   repo: git://github.com/guykisel/pre-commit-reject-large-files
+    sha: 60a7d18671832d36f003525235a8a2a603166644
+    hooks:
+    -   id: reject-large-files

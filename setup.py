@@ -16,7 +16,7 @@ setup(
     name='pre_commit_reject_large_files',
     description='A pre-commit hook to reject large files.',
     url='https://github.com/guykisel/pre-commit-reject-large-files',
-    version='0.0.1dev0',
+    version='0.0.1',
     author='Guy Kisel',
     author_email='guy.kisel@gmail.com',
     platforms='any',
