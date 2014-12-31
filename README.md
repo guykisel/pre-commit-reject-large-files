@@ -6,6 +6,8 @@ large files.
 
 * [pre-commit](https://github.com/pre-commit)
 
+Inspired by [Albert-Jan Roskam's git hook](http://code.activestate.com/recipes/578883-git-pre-commit-hook-to-reject-large-files-using-py/).
+
 
 Add this to your ``.pre-commit-config.yaml`` file
 
