@@ -20,6 +20,9 @@ def main(argv=None):
 
     for filename in args.filenames:
         size = os.stat(filename).st_size
+        print(filename)
+        print(size)
+        print(args.max_filesize)
         if int(size) > int(args.max_filesize):
             print('{} is too large ({} > {})'.format(os.path.abspath(filename),
                                                      size, args.max_filesize))
