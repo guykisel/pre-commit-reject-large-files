@@ -1,0 +1,6 @@
+- id: reject-large-files
+  name: Reject large files
+  description: This hook rejects large files.
+  entry: reject-large-files
+  language: python
+  files: \.*$
