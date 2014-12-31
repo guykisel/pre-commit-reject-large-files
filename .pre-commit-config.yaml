@@ -21,6 +21,6 @@
         args:
         - --silent-overwrite
 -   repo: git://github.com/guykisel/pre-commit-reject-large-files
-    sha: e5751cd598628045f2ae7b6651ba629dd8e786a6
+    sha: 954488752f2c600ef63a6f95d94e726c121297a7
     hooks:
     -   id: reject-large-files
