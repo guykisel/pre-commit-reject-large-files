@@ -1,5 +1,6 @@
--   repo: git://github.com/pre-commit/pre-commit-hooks
-    sha: 2bd608119f0f1d0783117e1d8a42210d84ca81f3
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: 2bd608119f0f1d0783117e1d8a42210d84ca81f3
     hooks:
     -   id: trailing-whitespace
     -   id: end-of-file-fixer
@@ -14,13 +15,13 @@
     -   id: name-tests-test
     -   id: flake8
     -   id: requirements-txt-fixer
--   repo: git://github.com/FalconSocial/pre-commit-python-sorter
-    sha: b7f5d468c67c3c4a6ea7cdf68c40778095b0f19b
+-   repo: https://github.com/FalconSocial/pre-commit-python-sorter
+    rev: b7f5d468c67c3c4a6ea7cdf68c40778095b0f19b
     hooks:
     -   id: python-import-sorter
         args:
         - --silent-overwrite
--   repo: git://github.com/guykisel/pre-commit-reject-large-files
-    sha: da21f6dac1aa20aa53598b145c5c0013cdd40d65
+-   repo: https://github.com/guykisel/pre-commit-reject-large-files
+    rev: da21f6dac1aa20aa53598b145c5c0013cdd40d65
     hooks:
     -   id: reject-large-files
